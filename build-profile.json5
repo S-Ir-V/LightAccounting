@@ -1,0 +1,41 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\86137\\.ohos\\config\\auto_debug_LightAccounting_com.example.lightaccounting_80086000144146256.cer",
+          "storePassword": "0000001AD72B0EDD695A227F753FE55027C9B75E3D1AC8F1908F55806DB07828B637D1142373EA642D79",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001AF7D0BA09519F5A8E420647727904E6370C83EA29773ABED46E042003186F1445660048CDDDA4",
+          "profile": "C:\\Users\\86137\\.ohos\\config\\auto_debug_LightAccounting_com.example.lightaccounting_80086000144146256.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\86137\\.ohos\\config\\auto_debug_LightAccounting_com.example.lightaccounting_80086000144146256.p12"
+        }
+      }
+    ],
+    "compileSdkVersion": 8,
+    "compatibleSdkVersion": 8,
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
